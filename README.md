@@ -18,16 +18,20 @@ To START PYTHON BACKEND
 3. run 'python manage.py runserver'
 
 Launch.json file should contain:
- "configurations": [
-        {
-            "name": "Python: Django",
-            "type": "python",
-            "request": "launch",
-            "program": "${workspaceFolder}/server/PythonServer/manage.py",
-            "args": [
-                "runserver",
-                "9000"
-            ],
-            "django": true
-        }
-    ]
+```
+{
+  "configurations": [
+    {
+      "name": "Python: Django",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/server/PythonServer/manage.py",
+      "args": [
+        "runserver",
+        "9000"
+      ],
+      "django": true
+    }
+  ]
+}  
+```
