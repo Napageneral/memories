@@ -1,4 +1,0 @@
-fastai
-django
-django-debug-toolbar
-django-cors-headers

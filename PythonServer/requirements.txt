@@ -1,0 +1,8 @@
+fastai
+django
+django-debug-toolbar
+django-cors-headers
+transformers
+boto3
+sentence-transformers
+umap-learn

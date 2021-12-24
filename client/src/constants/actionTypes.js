@@ -5,3 +5,6 @@ export const FETCH_ALL = 'FETCH_ALL';
 export const LIKE = 'LIKE';
 //export const VECTORIZEPOST = 'VECTORIZEPOST';
 export const VECTORIZEINPUT = 'VECTORIZEINPUT';
+export const ANALYZESENTIMENT = 'ANALYZESENTIMENT';
+export const EMBEDSENTENCE = 'EMBEDSENTENCE';
+export const UMAP = 'UMAP';

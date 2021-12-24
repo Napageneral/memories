@@ -7,7 +7,10 @@ import Form from './components/Form/Form';
 import Posts from './components/Posts/Posts';
 import memories from './images/memories.png';
 import useStyles from './styles';
-import VectorForm from './components/VectorForm/VectorForm';
+import VectorForm from './components/VectorForm/VectorForm'
+import SentimentForm from './components/SentimentForm/SentimentForm';
+import EmbeddingForm from './components/EmbeddingForm/EmbeddingForm';
+import UmapForm from './components/UmapForm/UmapForm';
 
 const App = () => {
     const classes = useStyles();
@@ -20,7 +23,9 @@ const App = () => {
 
     return(
         <Container maxidth="lg">
-            <VectorForm />
+            <UmapForm />
+            <EmbeddingForm />
+            <SentimentForm />
             <AppBar className={classes.appBar} position="static" color="inherit">
                 <Typography className={classes.heading} variant="h2" align="center">Memories</Typography>
                 <img className={classes.image} src={memories} alt="memories" height="60"/>

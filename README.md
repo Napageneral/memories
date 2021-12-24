@@ -13,7 +13,7 @@ TO START NODE BACKEND
 
 To START PYTHON BACKEND 
 0. Dependent on having launch.json file set up properly
-1. Open a terminal in /server/PythonServer/
+1. Open a terminal in /PythonServer/
 2. run pip install -r requirements.txt
 3. run 'python manage.py runserver'
 
@@ -25,7 +25,7 @@ Launch.json file should contain:
       "name": "Python: Django",
       "type": "python",
       "request": "launch",
-      "program": "${workspaceFolder}/server/PythonServer/manage.py",
+      "program": "${workspaceFolder}/PythonServer/manage.py",
       "args": [
         "runserver",
         "9000"

@@ -1,5 +1,12 @@
+#Ignore misc
+.DS_Store
+
+#Ignore models
+*.pth
+
 #Ignore Node stuff
 node_modules
+/build/
 
 #Ignore Python stuff
 # Byte-compiled / optimized / DLL files
